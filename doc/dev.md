@@ -117,7 +117,8 @@ We have corresponding `.bat` scripts for Windows, examples:
 ```shell
 script\test.bat
 script\run_lib_tests.bat
-set BABASHKA_TEST_ENV=native & script\run_lib_tests.bat
+set BABASHKA_TEST_ENV=native
+script\run_lib_tests.bat
 ```
 
 ### Enable Windows Symbolic Links
